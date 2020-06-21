@@ -1,0 +1,122 @@
+/* Using Bootstrap 4 */
+
+body {
+	background-color: #f9f9f9;
+	font-size: 16px;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #04030f;
+}
+
+.navbar-light {
+	background-color: #F97300;
+}
+
+.navbar-brand h1 {
+	font-family: 'Lora', serif;
+	color: #fff;
+	text-shadow: 1px 1px #f5cfae;
+	font-size: 3em;
+	font-weight: bold;	
+}
+
+.navbar-light .navbar-toggler {
+	color: #fff;
+	border-color: #fff;
+	font-size: 1.25rem;
+}
+
+.navbar-light .navbar-toggler-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(255, 255, 255, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/></svg>");	
+}
+
+button:focus {
+	outline: 1px auto #fff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: rgba(255, 255, 255, 0.8);
+	font-size: 1.5em;
+	font-weight: 700;
+}
+
+.navbar-collapse{
+	margin: 20px -20px -10px;
+	background-color: #f0a275;
+}
+
+.navbar-nav li {
+	border: 1px solid #F97300;
+}
+
+#menu-heading h2 {
+	margin-top: 50px;
+	margin-bottom: 20px;
+
+	font-size: 2.4em;
+	font-weight: bold;
+	font-family: 'IBM Plex Sans', sans-serif;
+}
+
+section {
+	border: 1px solid #f5f2d0;
+	border-radius: 3px;
+	background-color: #f5f2d0;
+	box-shadow: 0 1px 5px 1px #7d6f69;
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+
+section h3 {
+	margin-top: 15px;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+section .details {
+	padding: 5px 15px;
+	text-align: left;
+}
+
+
+/**************** extra small device  ***********/
+
+@media (max-width: 767px) {
+
+	.navbar-brand h1 {
+		font-size: 2.5em;
+	}
+}
+
+
+/****************  Super extra small device  ***********/
+
+@media (max-width: 576px) {
+	
+	.navbar-brand h1 {
+		font-size: 1.8em;
+	}
+
+	.navbar-light .navbar-toggler {
+	font-size: 1rem;
+	}
+
+	.navbar-light .navbar-nav .nav-link {
+	color: rgba(255, 255, 255, 0.8);
+	font-size: 1.3em;
+	font-weight: 700;
+	}
+
+	#menu-heading h2 {
+		font-size: 1.6em;
+		margin-top: 40px;
+	    margin-bottom: 10px;
+
+	}
+
+	section h3 {
+	margin-top: 15px;
+	font-size: 1.2em;
+	font-weight: bold;
+	}
+	
+}
