@@ -4,7 +4,7 @@
 
 for(name of names) {
 
-  regex = /^[j|J]/; 
+   var regex = /^[j|J]/; 
   // please note that i used regular expression to do the matching, which is much cleaner than using charAt()
 
   if(regex.test(name)) {
