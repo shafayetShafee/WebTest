@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,700;1,400&display=swap');
+
+
+body {
+	font-size: 16px;
+	font-family: 'Oxygen', sans-serif;
+	background-color: #fcfcfc;
+	line-height: 1.3;
+}
+
+.jumbotron {
+  padding: 1rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #e9ecef;
+  border-radius: 0rem;
+}
+
+
+.navbar .navbar-brand h1 {
+	font-family: 'Lora', serif;	
+	text-transform: uppercase;
+	font-size: 2.5em;
+	color: #2b2929;
+}
+
+.navbar .navbar-brand img {
+	width: 90px;
+	height: 90px; 
+}
+
+.card {
+   -webkit-box-shadow: 0 10px 6px -6px #777;
+      -moz-box-shadow: 0 10px 6px -6px #777;
+           box-shadow: 0 10px 6px -6px #777;
+
+    height: 750px;
+}
+
+
+.shadow-box {
+	-webkit-box-shadow: 0 1px 2px rgba(40, 167, 69, 0.15);
+	   -moz-box-shadow: 0 1px 2px rgba(40, 167, 69, 0.15);
+	        box-shadow: 0 1px 2px rgba(40, 167, 69, 0.15);
+  	transition: box-shadow 0.1s ease-in-out;
+}
+
+.shadow-box:hover {
+	-webkit-box-shadow: 0 4px 6px rgba(40, 167, 69, 0.8);
+	   -moz-box-shadow: 0 4px 6px rgba(40, 167, 69, 0.8);
+	        box-shadow: 0 4px 6px rgba(40, 167, 69, 0.8);
+}
+
+
+.table thead {
+	background-color: #00966f;
+}
+
+.table td {
+	text-align: center;
+}
+
+h3 {
+	font-size: 1.8rem;
+}
+
+.padding {
+	padding-bottom: 1.5rem;
+}
+
+.padding-1 {
+	padding-bottom: 2rem;
+}
+
+.padding-2 {
+	padding-bottom: 3rem;
+}
+
+footer {
+	padding: 1.5rem;
+	background-color: #e9ecef;
+	border-radius: 0.3rem;
+
+}
+
+#topBtn {
+	border-color: #e9ecef;
+}
+
+#mail {
+	width: 200px;
+	visibility: hidden;
+}
+
+::-moz-selection {
+    background: rgba(40, 167, 69, 0.5);
+}
+::selection {
+  background: rgba(40, 167, 69, 0.5);
+}
+
+
+
+
+/*************** large device****************/
+@media (min-width: 992px) {
+	 
+	 .fixed_height {
+ 		height: 400px;
+ 	}
+
+
+	.leading {
+	  font-size: 1.25rem;
+	  font-weight: 300;
+	}
+
+}
+
+
+/*********************** Only large device *******************************/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+	.navbar .navbar-brand h1 {
+		font-size: 2em;
+	}
+
+}
+
+/*********************** Only medium device *******************************/
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+	.navbar .navbar-brand h1 {
+		font-size: 2em;
+	}
+
+	.navbar-nav > li {
+		text-align: right;
+	}
+
+}
+
+/**************** Small Device only ************/
+
+@media (max-width: 767px) {
+
+	.pl {
+		margin: 3% 12%;
+	}
+
+	.navbar .navbar-brand h1 {
+		font-size: 5vw;
+	}
+
+	.navbar .navbar-brand img {
+		width: 60px;
+		height: 60px; 
+	}
+
+	.navbar-toggler {
+		padding: 0.20rem 0.50rem;
+		font-size: 1.25rem;
+	}	
+
+	.navbar-nav > li {
+		margin: 0 auto;
+	}
+}
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 480px) {
+
+	h1 {
+		font-size: 2rem;
+	}
+
+	h3 {
+		font-size: 1.5rem;
+	}
+
+	.navbar .navbar-brand h1 {
+		font-size: 5vw;
+	}
+
+	.navbar .navbar-brand img {
+		width: 30px;
+		height: 30px; 
+	}
+
+	.navbar-toggler {
+		padding: 0.20rem 0.40rem;
+		font-size: 1rem;
+	}	
+
+	.nav-item .nav-link {
+		font-size: 0.7rem;
+	}
+}
+
+
