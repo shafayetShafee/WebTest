@@ -64,6 +64,14 @@ h3 {
 	font-size: 1.8rem;
 }
 
+.blank {
+	color:  #00966f;
+}
+
+.table th[scope="col"] {
+	text-align: center;
+}
+
 .padding {
 	padding-bottom: 1.5rem;
 }
