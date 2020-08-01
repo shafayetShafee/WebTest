@@ -29,6 +29,12 @@ body {
 	height: 90px; 
 }
 
+ #navbarToggle:focus {
+	outline-color: rgba(20, 117, 139, 0.7);
+	/*outline-color: rgba(16, 54, 86, 0.5);*/
+	/*outline-color: rgba(40, 167, 69, 0.5);*/
+}
+
 .card {
    -webkit-box-shadow: 0 10px 6px -6px #777;
       -moz-box-shadow: 0 10px 6px -6px #777;
@@ -62,14 +68,6 @@ body {
 
 h3 {
 	font-size: 1.8rem;
-}
-
-.blank {
-	color:  #00966f;
-}
-
-.table th[scope="col"] {
-	text-align: center;
 }
 
 .padding {
