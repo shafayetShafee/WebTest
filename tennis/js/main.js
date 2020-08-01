@@ -1,22 +1,22 @@
 // Dont know much about jQuery ... copied it from internet
 
 
-$(function (global) {
+$(function () {
 
-  $("#navbarToggle").blur(function (event) {
-    var screenWidth = window.innerWidth;
-    var target = $(event.target);
-    if (screenWidth < 992) {
-      if( target.not("collapsableNav")) {
-      	$("collapsableNav").collapse("hide");
-      }
-    }
-  });
+  var screenWidth = window.innerWidth;
+  if (screenWidth < 992) {
+
+  	$('body').click(function(event) {
+  		if($(event.target).hasClass('navbar-nav')) {
+  			$("#collapsableNav").collapse('show');
+  		} else {
+  			$("#collapsableNav").collapse('hide');
+  		}
+
+  	}); 
+  };
 
 
-  $("#navbarToggle").click(function (event) {
-    $(event.target).focus();
-  });
 });
 
 
