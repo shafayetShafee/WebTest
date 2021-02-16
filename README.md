@@ -1,2 +1,2 @@
-# Coursera HTML-CSS-JS course Assignment
+# HTML-CSS-JS course Assignment
 All Assignments are uploaded here!
